@@ -57,9 +57,9 @@ Utilisant le script [wpa_key_derivation.py](https://github.com/arubinst/HEIGVD-S
    - Identiques &rarr; La passphrase utilisée est correcte
    - Différents &rarr; Essayer avec une nouvelle passphrase
 
-Voici notre script en marche, trouvant la passphrase "actuelle" :
+Voici notre script en cours d'exécution, trouvant la passphrase "actuelle" :
 
-![Script en marche](img/Screenshot.png)
+![Script](img/Screenshot.png)
 
 ### 3. Scairodump (Challenge)
 
