@@ -57,12 +57,17 @@ Utilisant le script [wpa_key_derivation.py](https://github.com/arubinst/HEIGVD-S
    - Identiques &rarr; La passphrase utilisée est correcte
    - Différents &rarr; Essayer avec une nouvelle passphrase
 
+Voici notre script en marche, trouvant la passphrase "actuelle" :
+
+![Script en marche](img/Screenshot.png)
 
 ### 3. Scairodump (Challenge)
 
 **Note : un délai supplémentaire peut être accordé pour ce dernier exercice - contactez-nous si jamais. Le reste du labo est à rendre à la date indiquée**
 
 Modifier votre script de cracking pour qu’il soit capable de faire les mêmes opérations que le script précédant mais sans utiliser une capture Wireshark. Pour cela, il faudra donc sniffer un 4-way handshake utilisant Scapy et refaire toutes les opérations de la partie 2 pour obtenir la passphrase. Le script doit implémenter la possibilité de déauthentifier un client pour stimuler le 4-way handshake. Cette déauthentification doit aussi être implémentée avec Scapy.
+
+
 
 ## Quelques éléments à considérer :
 
